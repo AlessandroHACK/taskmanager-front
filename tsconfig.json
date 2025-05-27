@@ -1,0 +1,18 @@
+{
+  "files": [],
+  "references": [
+    { "path": "./tsconfig.app.json" },
+    { "path": "./tsconfig.node.json" },
+    {"paths": {
+      "@/components/*" : ["components/*"],
+      "@layouts/*" : ["layouts/*"],
+      "@views/*" : ["views/*"],
+      "@api/*" : ["api/*"],
+      "@lib/*" : ["lib/*"],
+      "@types/*" : ["types/*"],
+      "@utils/*" : ["utils/*"],
+      "@locales/*" : ["locales/*"],
+      "@hooks/*" : ["hooks/*"]
+    }}
+  ]
+}
